@@ -26,9 +26,12 @@ while exit == False:
 
         if Valor not in Valores:         # Se o Valor não estiver na lista Valores
             Valores.append(Valor)        # A lista Valores adiciona o Valor
+            print('Valor adicionado.')
+        else:
+            print('Valor ja foi adicionado.')   
 
     else:                               # Se não devolve o texto Chave não encontrada  
-        print('Chave não encontrada')    
+        print('Chave não encontrada.')    
 
 
 print(Valores)                          # Retorna um print da lista Valores
